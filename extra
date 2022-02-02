@@ -61,6 +61,67 @@ open source
 npm > node package manager
 
 
-JSON
+JSON > JavaScript Object Notation
+[
+    {
+        "name":"John",
+        "age":10
+    },
+    {
+        "name":"Amit",
+        "age":20
+    }
+]
+
+
 package.json
+> Entry point to application
+> MetaData(name,description,version,Author)
+> script(start,test,build)
+> packages
+
+
+///step to generate package.json//////
+* NodeJs must be install in laptop
+> open the cmd/terminal go inside the folder
+> npm init
+> Answer all question
+> type "yes"
+
+
+///step to install packages//////
+* NodeJs must be install in laptop
+> open the cmd/terminal go inside the folder
+> npm i packagesname
+
+
 setup of reactapp
+///////
+* NodeJs must be install in laptop
+> open the cmd/terminal go inside the folder
+> npx create-react-app appname
+
+
+#window
+###Only One time 
+> open the cmd as administrator
+> npm i -g create-react-app
+
+###Everytime you need new app
+> open cmd
+> create-react-app appname
+
+
+#mac/linux
+###Only One time 
+> open the terminal
+> sudo npm i -g create-react-app
+
+###Everytime you need new app
+> open terminal
+> create-react-app appname
+
+//////setup of run reactapp/////
+> open the cmd/terminal
+> go inside the app folder
+> npm start
