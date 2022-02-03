@@ -125,3 +125,23 @@ setup of reactapp
 > open the cmd/terminal
 > go inside the app folder
 > npm start
+
+
+"react": Main Library
+"react-dom":  this help to display content on browser
+"react-scripts: This help to run the application
+
+
+//es5 > Ecma Script5
+function add(a,b){
+    return a+b
+}
+
+add(1,2) > 3
+
+//es6 > Ecma Script6
+const add = (a,b) => {
+    return a+b
+}
+
+add(1,2)
