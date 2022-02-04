@@ -1,0 +1,26 @@
+//es6
+import React from 'react'
+import ReactDOM from 'react-dom';
+import Header from './component/Header';
+import Footer from './component/Footer';
+
+const App = () => {
+    return (
+        <div>
+            <Header/>
+            <h1>This is React</h1>
+            <h2>Heading two</h2>
+            <Footer/>
+        </div>
+    )
+}
+
+ReactDOM.render(<App/>,document.getElementById('root'))
+
+//es5 > var React = require('react');
+//es5
+// function App(){
+//     return(
+//         <h1>This is React Es5</h1>
+//     )
+// }
