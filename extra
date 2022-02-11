@@ -185,3 +185,36 @@ add(1,2)
     > Take only space which is required
     > sit beside each other if space available
     > span img a
+
+
+inline
+styletag
+stylesheet
+
+
+inline > styletag > stylesheet
+
+inline{
+    color:red,
+    text-align:center
+}
+
+styletag{
+    color:orange,
+    font-size:30px
+}
+
+
+stylesheet{
+    text-align:right;
+    font-size:40px;
+    background-color:green
+}
+
+
+{
+    color:red,
+    text-align:center,
+    font-size:30px,
+    background-color:green
+}
