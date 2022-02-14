@@ -1,0 +1,46 @@
+h1{
+    color:teal;
+    text-align:center
+}
+#mainHeading{
+    color:teal;
+    text-align:center
+}
+
+.card{
+    height:400px;
+    width:20%;
+    background-color:#e69c7f;
+    text-align:center;
+    float:left;
+    overflow: scroll;
+    margin-left:4%;
+    color:white
+}
+.cardImg{
+    height:200px;
+    width:100%
+}
+.colorOne{
+    background-color:#7da9dc;
+}
+
+#colorThree{
+    background-color:#83C7EB;
+}
+#colorTwo{
+    background-color:#ba9d98;
+}
+#mainDiv{
+    width:100%;
+    display: inline-block;
+    height:400px;
+}
+footer{
+    width:100%;
+    display: inline-block;
+    text-align:center
+}
+a{
+    text-decoration: none;
+}

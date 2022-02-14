@@ -218,3 +218,14 @@ stylesheet{
     font-size:30px,
     background-color:green
 }
+
+///////
+id (#)> target something unique
+classname(.) > to target something common
+tagname > to target spec tag
+
+solid
+dotted
+double
+dashed
+groove
