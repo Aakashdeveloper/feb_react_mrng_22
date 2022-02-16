@@ -1,0 +1,72 @@
+body{
+    margin:auto
+}
+a{
+    text-decoration:none
+}
+header{
+    height:60px;
+    width:100%;
+    /* border:2px solid black; */
+    background-color:#f79a4e
+}
+#brand{
+    font-size:30px;
+    color:white;
+    float: left;
+    margin-top:1%;
+    margin-left: 1%;
+}
+
+#social{
+    float: left;
+    margin-left: 72%;
+}
+
+.socialImg{
+    height:50px
+}
+/*search section*/
+#main{
+    width:78%;
+    margin-left:10%;
+    margin-top:2%;
+
+}
+
+#filter{
+    height:600px;
+    width:20%;
+    border:2px solid green;
+    float: left;
+}
+
+#list{
+    width:75%;
+    float: left;
+    margin-left:4%;
+    margin-top: -17px;
+}
+
+.listItem{
+    height:250px;
+    margin-top: 2%;
+    width:100%;
+    border:2px solid purple;
+}
+
+footer{
+    height:80px;
+    width:100%;
+    display: inline-block;
+}
+
+.foot1{
+    height:80px;
+    width:32%;
+    border-right: 2px solid black;
+    float: left;
+}
+.foot2{
+    border:none
+}
