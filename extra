@@ -230,3 +230,8 @@ dotted
 double
 dashed
 groove
+
+col-xs  < 768px
+col-sm  > 768px
+col-md  > 992px
+col-lg  > 1200px
