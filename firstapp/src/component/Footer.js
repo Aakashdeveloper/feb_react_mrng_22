@@ -2,10 +2,10 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
+        <React.Fragment>
             <hr/>
             <center>&copy; Developer Funnel</center>
-        </div>
+        </React.Fragment>
     )
 }
 

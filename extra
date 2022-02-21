@@ -235,3 +235,23 @@ col-xs  < 768px
 col-sm  > 768px
 col-md  > 992px
 col-lg  > 1200px
+
+
+///////////////
+
+classComponent
+>  logical Component
+>  apply logic, call api as well as display
+> we can maintain state
+
+functional Component
+> Dumb Component
+> only use for display purposes
+> we cannot maintain state
+
+Hooks Component
+
+
+///////////////
+state
+props
