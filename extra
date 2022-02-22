@@ -254,4 +254,18 @@ Hooks Component
 
 ///////////////
 state
+> Act like a local variable
+> State value can be updated
+> Each component can have its own state
+> Any data interaction will happen through state
+
 props
+> Help to transfer the data
+> we cannot update the value of props
+> props only accessed between the nested components
+
+
+///javascript
+map
+filter
+indexof
