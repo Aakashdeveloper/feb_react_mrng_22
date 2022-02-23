@@ -249,6 +249,7 @@ functional Component
 > only use for display purposes
 > we cannot maintain state
 
+
 Hooks Component
 
 
@@ -269,3 +270,59 @@ props
 map
 filter
 indexof
+
+var a = [4,6,7,3,5,2]
+
+a.map((data) => {
+    return data*2
+})
+[8, 12, 14, 6, 10, 4]
+
+
+a.map((data) => {
+    return `<p>${data*2}</p>`
+})
+
+(6) ['<p>8</p>', '<p>12</p>', '<p>14</p>', '<p>6</p>', '<p>10</p>', '<p>4</p>']
+
+
+///////////////
+//es5
+var a = 10
+var b = "my age is "+a
+"my age is 10"
+
+//es6
+var a = 10
+var b = `my age is ${a}`
+"my age is 10"
+
+
+var a = [4,6,7,3,5,2,9,3,5]
+a.filter((data) => {
+    return data>5
+})
+
+[6, 7, 9]
+
+var a = ["Delhi","Mumbai","Pune","Amsterdam"]
+a.indexOf('Delhi')
+0
+a.indexOf('Pune')
+2
+a.indexOf('London')
+-1
+a.indexOf('Boston')
+-1
+
+
+parent > child (props)
+child > parent (props with function)
+
+parent
+function add(a,b){
+    return a+b
+}
+
+child
+add(1,2)
