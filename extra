@@ -326,3 +326,21 @@ function add(a,b){
 
 child
 add(1,2)
+
+Node JS online training program starts on 23rd February @ 9:00 PM (IST) by Mr.Aakash.
+Demo Meeting Link: https://zoom.us/j/88261791771
+Password: 112233
+
+////////////
+params(/)
+> it complusory to define in the routing
+> for small amount of data
+
+queryParams(?)
+> no need to define
+> for large data queryParams
+
+/// default props
+> history (use for redirection)
+> location (use for queryParams)
+> match (use for params)
