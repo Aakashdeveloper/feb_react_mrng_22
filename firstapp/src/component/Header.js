@@ -13,7 +13,7 @@ class Header extends Component {
 
     handleChange = (event) => {
         //  console.log(event.target.value)
-        this.setState({keywords:event.target.value})
+        this.setState({keywords:event.target.value?event.target.value:'User Text Here'})
         // passing the data
         this.props.userInput(event.target.value)
     }
