@@ -1,0 +1,55 @@
+
+#search{
+    height:450px;
+    width:100%;
+    background-image: url('https://i.ibb.co/NVQxPB6/food-Wallpaper.png');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    background-size: 100% 450px;
+}
+
+.logo{
+    height:150px;
+    width:150px;
+    background-color: white;
+    border-radius:50%;
+    margin-left: 44%;
+    margin-top: 1%;
+    position: absolute;
+}
+
+.logo > span{
+    margin-left: 20%;
+    margin-top: 10%;
+    position: absolute;
+    font-size:90px;
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+#heading{
+    margin-left: 31%;
+    margin-top: 15%;
+    position: absolute;
+    font-size: 50px;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dropdown{
+    width:50%;
+    height:60px;
+    margin-left: 26%;
+    margin-top: 22%;
+    position: absolute;
+}
+select{
+    width:40%;
+    height:60px; 
+    font-size: 15px;
+}
+
+#restaurants{
+    width:59%;
+}
