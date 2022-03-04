@@ -4,6 +4,7 @@ import Header from './Header';
 import Footer from './Footer';
 import Home from './component/Home/home';
 import NotFound from './Notfound';
+import ListingApi from './component/listing/listingApi';
 
 const Routing = () => {
     return(
@@ -11,6 +12,7 @@ const Routing = () => {
             <Header/>
             <Switch>
                 <Route exact path="/" component={Home}/>
+                <Route exact path="/list/:mealId" component={ListingApi}/>
                 <Route component={NotFound} />
             </Switch>
             <Footer/>
