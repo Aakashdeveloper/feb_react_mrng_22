@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Home from './component/Home/home';
 import NotFound from './Notfound';
 import ListingApi from './component/listing/listingApi';
+import Details from './component/details/restDetails'
 
 const Routing = () => {
     return(
@@ -13,6 +14,7 @@ const Routing = () => {
             <Switch>
                 <Route exact path="/" component={Home}/>
                 <Route exact path="/list/:mealId" component={ListingApi}/>
+                <Route exact path="/details" component={Details}/>
                 <Route component={NotFound} />
             </Switch>
             <Footer/>

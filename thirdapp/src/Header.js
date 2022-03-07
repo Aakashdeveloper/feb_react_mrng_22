@@ -12,6 +12,8 @@ class Header extends Component {
             <header>
                 <div id="brand">
                     Developer Funnel
+                    &nbsp;
+                    <Link to="/" className="btn btn-info">Home</Link>
                 </div>
                 <div id="social">
                    <Link to="/" className="btn btn-success">
