@@ -364,3 +364,33 @@ queryParams(?)
 (post)placeOrder >         
 
 https://developerpayment.herokuapp.com/paynow
+
+var a = [4,8,9,2,4,10]
+undefined
+a.splice(3,1)
+[2]
+a
+(5) [4, 8, 9, 4, 10]
+a.splice(2,1)
+[9]
+
+var a = [4,8,9,2,4,10]
+undefined
+a.indexOf(2)
+3
+a.splice(a.indexOf(2),1)
+[2]
+a
+(5) [4, 8, 9, 4, 10]
+a.splice(a.indexOf(4),1)
+[4]
+a
+(4) [8, 9, 4, 10]
+a.splice(a.indexOf(4),1)
+[4]
+a
+(3) [8, 9, 10]
+a.splice(a.indexOf(4),1)
+[10]
+a
+(2) [8, 9]
