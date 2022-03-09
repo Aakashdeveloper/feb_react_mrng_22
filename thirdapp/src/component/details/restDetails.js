@@ -3,6 +3,7 @@ import MenuDisplay from './menuDisplay';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 import './details.css';
+import {Link} from 'react-router-dom';
 import axios from 'axios';
 
 const url = "http://zomatoajulypi.herokuapp.com/details"
@@ -16,12 +17,18 @@ class Details extends Component {
         this.state={
             details:'',
             menuList:'',
-            userItems:''
+            userItems:'',
+            mealId:sessionStorage.getItem('mealId')?sessionStorage.getItem('mealId'):1
         }
     }
 
     addToCart = (data) => {
         this.setState({userItems:data})
+    }
+
+    proceed = () => {
+        sessionStorage.setItem('menu', this.state.userItems)
+        this.props.history.push(`/placeOrder/${this.state.details.restaurant_name}`)
     }
 
     render(){
@@ -65,8 +72,12 @@ class Details extends Component {
                                         <h2>{details.address}</h2>
                                         <h2>Phone: {details.contact_number}</h2>
                                     </TabPanel>
-                                    
                                 </Tabs>
+                                <Link to={`/list/${this.state.mealId}`} class="btn btn-danger">Back </Link> &nbsp;
+                                <button className="btn btn-success" onClick={this.proceed}>
+                                    Proceed    
+                                </button>
+
                             </div>
                         </div>
                     </div>
