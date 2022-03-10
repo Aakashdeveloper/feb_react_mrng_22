@@ -395,3 +395,6 @@ a.splice(a.indexOf(4),1)
 [10]
 a
 (2) [8, 9]
+
+/////////Dummy Api////////
+npx json-server --watch orders.json --port 6700
