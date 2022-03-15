@@ -25,7 +25,6 @@ Npm
 React = 3
 Mock API
 json-server
-React_hooks -1
 React-JWT(Login Logout)-2
 Github
 Deployment
@@ -36,6 +35,7 @@ Deployment
 -> Nginx
 -> Netlify
 
+React_hooks -1
 HOC
 React-GraphQL - 1 
 Basic React Native- 1

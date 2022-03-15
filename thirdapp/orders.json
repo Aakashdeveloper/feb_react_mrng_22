@@ -29,6 +29,16 @@
       "phone": "344364544",
       "address": "Hno 34",
       "menuItem": "23,24,25,20"
+    },
+    {
+      "id": 61014,
+      "hotel_name": "Pandit Ji Paratha Hut",
+      "name": "",
+      "email": "",
+      "cost": 275,
+      "phone": "",
+      "address": "Hno 34",
+      "menuItem": "6,7,10"
     }
   ]
 }
