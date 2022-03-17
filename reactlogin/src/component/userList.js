@@ -14,6 +14,12 @@ class Users extends Component {
     }
 
     render(){
+        if(sessionStorage.getItem('ltk') === null){
+            this.props.history.push('/?message=Login-First')
+        }
+        if(sessionStorage.getItem('ltk') !== null && sessionStorage.getItem('rtk') !== 'Admin'){
+            this.props.history.push('/profile?message=You are not authorised for the users')
+        }
         return(
            <>
             <UserDisplay userData={this.state.users}/>

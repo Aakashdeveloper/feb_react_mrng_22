@@ -1,4 +1,5 @@
-import React,{Component} from 'react'
+import React,{Component} from 'react';
+import Header from '../../Header'
 
 const url = "https://developerjwt.herokuapp.com/api/auth/login"
 
@@ -7,8 +8,8 @@ class Login extends Component {
         super(props)
 
         this.state={
-            email:'',
-            password:'',
+            email:'poonam@gmail.com',
+            password:'12345678',
             message:this.props.location.search.split('=')[1]
         }
     }
@@ -31,7 +32,7 @@ class Login extends Component {
                 this.setState({message:data.token})
             }else{
                 sessionStorage.setItem('ltk',data.token);
-                this.props.history.push('/profile')
+                this.props.history.push('/')
             }
         })
     }
@@ -39,6 +40,7 @@ class Login extends Component {
     render(){
         return(
             <>
+                <Header/>
                 <div className="container">
                     <hr/>
                     <div className="panel panel-danger">
